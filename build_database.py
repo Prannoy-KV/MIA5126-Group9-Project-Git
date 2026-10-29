@@ -26,6 +26,7 @@ from openpyxl import load_workbook
 
 #==============================
 # Part 1: Find the source files: It looks for the 2011–2021 RPRA Excel files and the census CSV in the expected folders. build_database 
+# Details
 #==============================
 PROJECT_DIR = Path(__file__).resolve().parent
 YEARS = range(2011, 2022)
